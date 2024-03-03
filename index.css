@@ -1,0 +1,70 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: lightgoldenrodyellow;
+    height: 50%;
+    position:absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the element horizontally and vertically */
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.container:hover {
+    background-color: lightgreen; /* Example hover effect */
+    cursor: pointer; /* Display a pointer cursor on hover */
+}
+
+
+
+h1 {
+    color: crimson;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#increment-btn:hover {
+    background-color: red; 
+    cursor: pointer; 
+}
+
+#increment-btn {
+    background: blue;
+}
+#increment-btn:hover {
+    background-color: red;
+    cursor: pointer; 
+}
+
+#save-btn {
+    background: gold;
+}
+#save-btn:hover {
+    background-color: palevioletred;
+    cursor: pointer; 
+}
